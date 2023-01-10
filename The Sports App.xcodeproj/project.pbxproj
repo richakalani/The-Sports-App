@@ -13,6 +13,10 @@
 		1C1BCF88296C683200D4022C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1BCF86296C683200D4022C /* Main.storyboard */; };
 		1C1BCF8A296C683300D4022C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1BCF89296C683300D4022C /* Assets.xcassets */; };
 		1C1BCF8D296C683300D4022C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1BCF8B296C683300D4022C /* LaunchScreen.storyboard */; };
+		1C1BCF95296C8A6A00D4022C /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BCF94296C8A6A00D4022C /* SportsModel.swift */; };
+		1C1BCF97296C942A00D4022C /* SportsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BCF96296C942A00D4022C /* SportsNetworkManager.swift */; };
+		1C1BCF9A296DA15700D4022C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BCF98296DA15700D4022C /* TableViewCell.swift */; };
+		1C1BCF9B296DA15700D4022C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1BCF99296DA15700D4022C /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1C1BCF89296C683300D4022C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C1BCF8C296C683300D4022C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C1BCF8E296C683300D4022C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1BCF94296C8A6A00D4022C /* SportsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsModel.swift; sourceTree = "<group>"; };
+		1C1BCF96296C942A00D4022C /* SportsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsNetworkManager.swift; sourceTree = "<group>"; };
+		1C1BCF98296DA15700D4022C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1C1BCF99296DA15700D4022C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				1C1BCF89296C683300D4022C /* Assets.xcassets */,
 				1C1BCF8B296C683300D4022C /* LaunchScreen.storyboard */,
 				1C1BCF8E296C683300D4022C /* Info.plist */,
+				1C1BCF94296C8A6A00D4022C /* SportsModel.swift */,
+				1C1BCF96296C942A00D4022C /* SportsNetworkManager.swift */,
+				1C1BCF98296DA15700D4022C /* TableViewCell.swift */,
+				1C1BCF99296DA15700D4022C /* TableViewCell.xib */,
 			);
 			path = "The Sports App";
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C1BCF8D296C683300D4022C /* LaunchScreen.storyboard in Resources */,
+				1C1BCF9B296DA15700D4022C /* TableViewCell.xib in Resources */,
 				1C1BCF8A296C683300D4022C /* Assets.xcassets in Resources */,
 				1C1BCF88296C683200D4022C /* Main.storyboard in Resources */,
 			);
@@ -140,7 +153,10 @@
 			files = (
 				1C1BCF85296C683200D4022C /* ViewController.swift in Sources */,
 				1C1BCF81296C683200D4022C /* AppDelegate.swift in Sources */,
+				1C1BCF97296C942A00D4022C /* SportsNetworkManager.swift in Sources */,
+				1C1BCF9A296DA15700D4022C /* TableViewCell.swift in Sources */,
 				1C1BCF83296C683200D4022C /* SceneDelegate.swift in Sources */,
+				1C1BCF95296C8A6A00D4022C /* SportsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
